@@ -1,0 +1,97 @@
+body {
+	background-color: #161616;
+}
+
+.azure-webapp {
+	background-color: #404C58;
+	top: 15vh;
+}
+
+.page-text {
+	color: #fff;
+}
+
+#azure-webapp-form {
+	padding: 20px;
+}
+
+#azure-webapp-form input, textarea {
+	border-radius: 0px !important;
+	padding: 10px;
+}
+
+.invalid-data {
+	color: red;
+}
+
+label {
+	color: #fff;
+}
+
+textarea { 
+    resize:vertical;
+}
+
+#campaign_submit {
+	background-color: #00AD6B;
+	color: #fff;
+	border: 0px;
+	width: 100%;
+	padding: 10px;
+}
+
+button:disabled,
+button[disabled]{
+  border: 1px solid #999999 !important;
+  background-color: #cccccc !important;
+  color: #666666 !important;
+}
+
+#campaign_empty {
+	background-color: #00AD6B;
+	color: #fff;
+	border: 0px;
+	width: 100%;
+	padding: 10px;
+}
+
+#campaign_dates_start, #campaign_dates_end {
+	width: 45%;
+}
+
+#campaign_dates_start input, #campaign_dates_end input {
+	padding: 10px;
+	width: 100%;
+}
+
+#campaign_dates_start {
+	float: left;
+}
+
+#campaign_dates_end {
+	float: right;
+}
+
+#campaign_uniqueId {
+	width: 20%;
+}
+
+.inline-buttons div {
+	display: inline-block;
+}
+
+#campaign_btn_submit {
+	width: 49.5%;
+}
+
+#campaign_btn_empty {
+	width: 49.5%;
+}
+
+#help-text {
+	color: #fff;
+}
+
+.dropdowns-inline div select{
+	width: 100%;
+}

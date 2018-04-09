@@ -1,0 +1,15 @@
+click==6.7
+Flask==0.12.2
+Flask-Testing==0.7.1
+itsdangerous==0.24
+Jinja2==2.10
+MarkupSafe==1.0
+nose==1.3.7
+Werkzeug==0.14.1
+pypyodbc==1.3.5.2
+numpy==1.11.2
+scipy==0.18.1
+pandas==0.22.0
+setuptools==28.8.0
+python-dateutil==2.7.0
+pytz==2018.3
