@@ -8,7 +8,7 @@ from flask import render_template
 import json
 import pandas as pd
 
-connection_string = "Driver={ODBC Driver 13 for SQL Server};Server=tcp:daub.database.windows.net,1433;Database=DAUB_BI;Uid=AzureDataFactory;Pwd={X17j8T@$1Bj5};Encrypt=yes;TrustServerCertificate=no;Connection Timeout=30;"
+connection_string = "Driver={ODBC Driver 13 for SQL Server};Server=tcp:1234.database.windows.net,1433;Database=1234;Uid=1234;Pwd={1234@$1Bj5};Encrypt=yes;TrustServerCertificate=no;Connection Timeout=30;"
 app = Flask(__name__)
 
 # In order to use session in flask you need to set the secret key in your application settings. 
