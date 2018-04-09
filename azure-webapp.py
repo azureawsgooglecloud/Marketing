@@ -13,7 +13,7 @@ app = Flask(__name__)
 
 # In order to use session in flask you need to set the secret key in your application settings. 
 # Secret key is a random key used to encrypt your cookies and save send them to the browser.
-app.secret_key = 'RxeTECU4y6AaEWgL57JwtCC9'
+app.secret_key = ''
 
 uploadFolder = '/static/uploads'
 dir_path = os.path.dirname(os.path.realpath(__file__))
